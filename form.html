@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="contact.php" method="post">
+        <fieldset>
+        <!-- <legend>Registrasi</legend> -->
+         <h3>Biodata</h3>
+        <p>
+            <label for="">Nama:</label>
+            <input type="text" name="nama" placeholder="Nama Lengkap...">
+        </p>
+        <p>
+            <label for="">Username:</label>
+            <input type="text" name="username" placeholder="Username...">
+        </p>
+        <p>
+            <label for="">Email:</label>
+            <input type="email" name="email" placeholder="Your email...">
+        </p>
+        <p>
+            <label for="">password</label>
+            <input type="password" name="password" placeholder="Password...">
+        </p>
+        <p>
+            <label for="">Jenis Kelamin</label>
+            <label for=""><input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki</label>
+            <label for=""><input type="radio" name="jenis_kelamin" value="perempuan">Perempuan</label>
+        </p>
+        <p>
+            <label for="">Tanggal Lahir</label>
+            <input type="date" name="">
+        </p>
+        <p>
+            <label for="">Agama</label>
+            <select name="agama" id="">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="katolik">Katolik</option>
+                <option value="kong_hucu">Kong Hucu</option>
+                <option value="atheis">Atheis</option>
+            </select>
+        </p>
+        <p>
+            <table>
+                <tr>
+                    <th><label class="text" for="">Biografi:</label></th>
+                    <th><textarea name="biografi" id="" placeholder="Your Biografi"></textarea></th>
+                    <td>sfds</td>
+
+                </tr>
+                <tr>
+                    <td>sfds</td>
+                    <td>sfds</td>
+                    <td>sfds</td>
+
+                </tr>
+            </table>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar">
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
